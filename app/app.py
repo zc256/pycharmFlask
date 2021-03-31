@@ -5,7 +5,7 @@ from flask import Flask, Response
 
 app = Flask(__name__)
 
-def cities_import() -> List(Dict):
+def cities_import() -> List[Dict]:
     config = {
         'user': 'root',
         'password': 'root',
